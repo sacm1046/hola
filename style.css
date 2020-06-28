@@ -1,0 +1,24 @@
+.green_btn{
+    background-color: green;
+}
+.red_btn{
+    background-color: red;
+}
+#long{
+    height: 1000px;
+}
+#counter{
+    font-size: 200px;
+}
+.soft{
+    opacity: 1;
+    animation: soft 500ms 1;
+}
+@keyframes soft{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
